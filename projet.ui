@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1372</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Projet Python</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">*{
+font: 87 12pt &quot;Cooper Std Black&quot;;
+color:rgb(0, 0, 0);
+ 
+
+}
+QPushButton#pushButton_3:pressed{
+
+	border-image: url(:/img/btn3.png);
+
+ }
+
+QPushButton#pushButton:pressed{
+
+	border-image: url(:/img/btn3.png);
+
+ }
+
+QPushButton#pushButton_2:pressed{
+
+	border-image: url(:/img/btn3.png);
+
+ }
+
+QPushButton#pushButton_3{
+border-image: url(:/img/btn2.png);
+border:0;
+background:0;
+
+}
+QPushButton#pushButton_4{
+border-image: url(:/img/btn2.png);
+border:0;
+background:0;
+
+}
+QPushButton#pushButton_5{
+border-image: url(:/img/btn2.png);
+border:0;
+background:0;
+
+}
+
+
+QPushButton#pushButton{
+border-image: url(:/img/btn2.png);
+border:0;
+background:0;
+
+}
+QPushButton#pushButton_2{
+border-image: url(:/img/btn2.png);
+border:0;
+background:0;
+
+}
+
+QPushButton#pushButton_3:pressed{
+
+	border-image: url(:/img/btn3.png);
+
+ }
+
+QPushButton#pushButton_4:pressed{
+
+	border-image: url(:/img/btn3.png);
+
+ }
+
+QPushButton#pushButton_5:pressed{
+
+	border-image: url(:/img/btn3.png);
+
+ }
+
+QMainWindow{
+border-image: url(:/img/602.png);
+
+}
+QLineEdit{
+background:transparent;
+
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>520</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>calculer</string>
+    </property>
+    <property name="icon">
+     <iconset resource="../../../../../../les interfaces1/img.qrc">
+      <normaloff>:/img/sta.png</normaloff>:/img/sta.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>590</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>quitter</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../../../../../../../../les interfaces1/report.png</normaloff>../../../../../../../../../les interfaces1/report.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>50</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Effacer</string>
+    </property>
+    <property name="icon">
+     <iconset resource="../../../../../../les interfaces1/img.qrc">
+      <normaloff>:/img/back.png</normaloff>:/img/back.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>220</y>
+      <width>91</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cooper Std Black</family>
+      <pointsize>12</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Fonction</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>340</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cooper Std Black</family>
+      <pointsize>12</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>a</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>390</y>
+      <width>55</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cooper Std Black</family>
+      <pointsize>12</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>b</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>170</y>
+      <width>251</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>point fixe</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>rectangle gauche</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>160</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Cooper Std Black</family>
+      <pointsize>12</pointsize>
+      <weight>10</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Méthode</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>250</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>400</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>330</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>499</x>
+      <y>139</y>
+      <width>611</width>
+      <height>581</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../../../../../../les interfaces1/img.qrc"/>
+ </resources>
+ <connections/>
+</ui>

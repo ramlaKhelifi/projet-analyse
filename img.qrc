@@ -1,0 +1,54 @@
+<RCC>
+  <qresource prefix="img">
+   
+ <file>602.png</file>
+  
+  <file>addperson.png</file>
+    
+
+<file>btn1.png</file>
+ 
+   <file>btn2.png</file>
+    
+<file>btn3.png</file>
+   
+ <file>cam.png</file>
+   
+ <file>group.png</file>
+  
+  <file>ic1.png</file>
+  
+  <file>ic2.png</file>
+ 
+   <file>ic3.png</file>
+  
+  <file>icone.png</file>
+  
+  <file>pen.png</file>
+   
+ <file>plus.png</file>
+  
+<file>leoni.png</file>
+  
+<file>addcamera.png</file>
+    
+<file>report.png</file>
+   
+<file>ref.png</file>
+   
+<file>delete.png</file>
+   
+<file>back.png</file>
+   
+<file>adduser.png</file>
+  
+<file>liste.png</file>
+  
+<file>sta.png</file>
+  
+<file>mail.png</file>
+  
+  <file>tap.png</file>
+
+  </qresource>
+</RCC>
